@@ -2987,6 +2987,10 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+				}
+	.resume-container {
+		margin-right: 100px;
+	}
 
 	}
 
@@ -3012,6 +3016,7 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
+				
 
 		/* Footer */
 
@@ -3231,7 +3236,7 @@ input, select, textarea {
 		display: flex;
 		justify-content: space-between;
 		text-align: center;
-		margin: 10px 50px 0 50px
+		margin: 10px 0 0 0;
 	}
 
 	.languages li:not(:last-child) {
@@ -3253,8 +3258,5 @@ input, select, textarea {
 	
 	.resume {
 		width: 200px;
+	}
 
-	}
-	.resume-container {
-		margin-right: 100px;
-	}
