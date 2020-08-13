@@ -3245,3 +3245,16 @@ input, select, textarea {
 	.center {
 		text-align: center;
 	}
+
+	.flex {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.resume {
+		width: 200px;
+
+	}
+	.resume-container {
+		margin-right: 100px;
+	}
